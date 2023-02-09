@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario</h1>
+        <h2>Insira os valores no campo a baixo: </h2>
+        <form id="form-calculo">
+            </p>
+            <legend for="A"> Valor A:</legend>
+            <input type="number" id="numero-a" required placeholder="Digite o 1°" />
+            <legend for="B"> Valor B:</legend>
+            <input type="number" id="numero-b" required placeholder="Digite o 2°" />
+            <p class="error-message">
+                O valor de <b>B</b> precisa ser maior que o valor <b>A</b>.
+            </p>
+            <button type="submit" id="btn-depositar">validar</button>
+            <p class="success-message">Resultado! O valor <b>A</b> é menor que o valor <b>B<b/> Correto</p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
