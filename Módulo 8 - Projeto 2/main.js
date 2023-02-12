@@ -16,10 +16,10 @@ function adicionaLinha() {
     const inputNumero = document.getElementById('nome');
     const inputNome = document.getElementById('numero');
 
-    /*if (atividades.includes(inputNumero.value)) {
-        alert(`A atividade ${inputNumero.value} já foi inserida.`);
+    if (numeros.includes(inputNumero.value)) {
+        alert(`O numero ${inputNumero.value} já foi inserida.`);
     } else {
-    atividades.push(inputNumero.value) */
+    numeros.push(inputNumero.value) 
 
     numeros.push(parseFloat(inputNome.value));
     let linha = '<tr>';
@@ -32,7 +32,10 @@ function adicionaLinha() {
 
     inputNome.value = '';
     inputNumero.value = '';
-}    //}
+
+     }
+
+}    
 
 
 function atualizaTabela() {
