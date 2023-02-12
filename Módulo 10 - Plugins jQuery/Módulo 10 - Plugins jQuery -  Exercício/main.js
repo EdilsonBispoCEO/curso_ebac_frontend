@@ -13,7 +13,7 @@ $(document).ready(function() {
                 },
                 telefone: {
                     required: true,
-                    email: true
+                    
                 },
                 email: {
                     required: true
