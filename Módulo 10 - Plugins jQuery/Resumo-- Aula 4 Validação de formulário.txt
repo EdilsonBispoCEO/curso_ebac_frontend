@@ -1,0 +1,42 @@
+
+
+httpskenwheeler.github.ioslick   
+
+
+
+Você também pode usar o slick com o jsDelivr CDN!Instalando o jQuery Mask Plugin
+
+Para instalar a Mask no nosso jQuery entramos nesse link → https://igorescobar.github.io/jQuery-Mask-Plugin/
+Depois faremos o download
+Após o download, como estamos em posição de consumidor do plugin, entramos na pasta dist copiamos o arquivo jquery.mask.min.js depois criamos uma pasta js dentro da pasta do nosso projeto e colamos o arquivo lá
+Agora adicionamos ele no nosso HTML
+
+
+Ficou assim:
+
+
+
+
+
+Utilizamos as máscaras para poder passar um padrão para nossos inputs 
+
+
+Como utilizar o Mask:
+
+Validação de formulário:
+
+
+
+Para instalar a jQuery Validation entramos nesse link → https://jqueryvalidation.org/
+Depois faremos o download descendo a página e procurando o botão de download
+Vai ser direcionado a uma página no github, descemos e baixamos o jquery-validation-1.19.5.zip
+Após o download, como estamos em posição de consumidor do plugin, entramos na pasta dist copiamos o arquivo jquery.validate.min.js e o messages_pt_PT.min.js (que se encontra na pasta localization) depois jogamos dentro da pasta js dentro do nosso projeto e colamos os arquivos lá
+Agora adicionamos eles no nosso HTML
+
+Interceptando o evento de submit (evento de envio do formulário):
+
+
+
+Utilizamos o submitHandler→ significa manipulador de envio
+
+Podemos utilizar o devTools para guardar alguma informação em uma variável temporária, caso queiramos fazer algum teste  
