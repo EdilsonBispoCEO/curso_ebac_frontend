@@ -29,7 +29,7 @@ $(document).ready(function() {
                 }
             },
 
-            message: {
+            messages: {
                 nome: 'Por favor, insira seu nome',
                 email: 'Por favor, insira um e-mail válido',
                 telefone: 'Por favor, insira um número de telefone válido',
